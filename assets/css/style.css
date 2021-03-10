@@ -2,20 +2,23 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    height: 600px;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color: black;
 }
 
-div {
+.grid div {
     width: 200px;
     height: 200px;
-    background-color: green;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
 }
 
 .playerX {
-
+    background-image: url('../images/cross.png');
 }
 
 .player0 {
-    
+    background-image: url('../images/circle.png');
 }
